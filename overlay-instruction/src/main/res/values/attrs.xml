@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverlayInstruction">
+        <attr name="oi_dimmedBackground" format="reference" />
+        <attr name="oi_highlightStrokeWidth" format="dimension" />
+        <attr name="oi_highlightStrokeColor" format="color" />
+        <attr name="oi_highlightStrokeStyle" format="enum">
+            <enum name="line" value="0" />
+            <enum name="dashed" value="1" />
+            <enum name="dotted" value="2" />
+        </attr>
+        <attr name="oi_highlightPadding" format="dimension" />
+        <attr name="oi_guideContentMargin" format="dimension" />
+        <attr name="oi_guideContentPadding" format="dimension" />
+        <attr name="oi_guideContentBG" format="reference" />
+        <attr name="oi_guideContentTextStyle" format="reference" />
+        <attr name="oi_guideBtnBG" format="reference" />
+        <attr name="oi_guideBtnTextStyle" format="reference" />
+    </declare-styleable>
+</resources>

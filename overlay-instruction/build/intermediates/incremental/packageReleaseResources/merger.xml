@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res"/><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/build/generated/res/rs/release"/><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res"><file name="instruction_content_bg" path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/drawable/instruction_content_bg.xml" qualifiers="" type="drawable"/><file name="overlay_instruction_dialog_layout" path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/layout/overlay_instruction_dialog_layout.xml" qualifiers="" type="layout"/><file path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/values/colors.xml" qualifiers=""><color name="highlight_stroke_color">@android:color/white</color><color name="dimmed_color">#B3000000</color></file><file path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/values/dimens.xml" qualifiers=""><dimen name="instruction_content_margin">16dp</dimen><dimen name="instruction_content_padding">12dp</dimen><dimen name="highlight_stroke_width">2dp</dimen><dimen name="highlight_padding">4dp</dimen></file><file path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/values/themes.xml" qualifiers=""><style name="InstructionDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="oi_dimmedBackground">@color/dimmed_color</item>
+        <item name="oi_guideBtnBG">@drawable/instruction_content_bg</item>
+        <item name="oi_guideContentBG">@drawable/instruction_content_bg</item>
+        <item name="oi_guideContentMargin">@dimen/instruction_content_margin</item>
+        <item name="oi_guideContentPadding">@dimen/instruction_content_padding</item>
+        <item name="oi_highlightPadding">@dimen/highlight_padding</item>
+        <item name="oi_highlightStrokeStyle">dashed</item>
+        <item name="oi_highlightStrokeColor">@android:color/white</item>
+        <item name="oi_highlightStrokeWidth">@dimen/highlight_stroke_width</item>
+        <item name="oi_guideContentTextStyle">@style/GuideTextStyle</item>
+        <item name="oi_guideBtnTextStyle">@style/GuideTextStyle</item>
+    </style><style name="GuideTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/highlight_stroke_color</item>
+    </style></file><file path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/values/styles.xml" qualifiers=""/><file path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="OverlayInstruction">
+        <attr format="reference" name="oi_dimmedBackground"/>
+        <attr format="dimension" name="oi_highlightStrokeWidth"/>
+        <attr format="color" name="oi_highlightStrokeColor"/>
+        <attr format="enum" name="oi_highlightStrokeStyle">
+            <enum name="line" value="0"/>
+            <enum name="dashed" value="1"/>
+            <enum name="dotted" value="2"/>
+        </attr>
+        <attr format="dimension" name="oi_highlightPadding"/>
+        <attr format="dimension" name="oi_guideContentMargin"/>
+        <attr format="dimension" name="oi_guideContentPadding"/>
+        <attr format="reference" name="oi_guideContentBG"/>
+        <attr format="reference" name="oi_guideContentTextStyle"/>
+        <attr format="reference" name="oi_guideBtnBG"/>
+        <attr format="reference" name="oi_guideBtnTextStyle"/>
+    </declare-styleable></file></source><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/build/generated/res/rs/release"/><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/hien.pham/AndroidStudioProjects/MyApplication/overlay-instruction/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="OverlayInstruction">
+        <attr format="reference" name="oi_dimmedBackground"/>
+        <attr format="dimension" name="oi_highlightStrokeWidth"/>
+        <attr format="color" name="oi_highlightStrokeColor"/>
+        <attr format="enum" name="oi_highlightStrokeStyle">
+            <enum name="line" value="0"/>
+            <enum name="dashed" value="1"/>
+            <enum name="dotted" value="2"/>
+        </attr>
+        <attr format="dimension" name="oi_highlightPadding"/>
+        <attr format="dimension" name="oi_guideContentMargin"/>
+        <attr format="dimension" name="oi_guideContentPadding"/>
+        <attr format="reference" name="oi_guideContentBG"/>
+        <attr format="reference" name="oi_guideContentTextStyle"/>
+        <attr format="reference" name="oi_guideBtnBG"/>
+        <attr format="reference" name="oi_guideBtnTextStyle"/>
+    </declare-styleable></configuration></mergedItems></merger>

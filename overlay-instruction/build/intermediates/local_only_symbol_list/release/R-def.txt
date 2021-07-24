@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+attr? oi_dimmedBackground
+attr? oi_guideBtnBG
+attr? oi_guideBtnTextStyle
+attr? oi_guideContentBG
+attr? oi_guideContentMargin
+attr? oi_guideContentPadding
+attr? oi_guideContentTextStyle
+attr? oi_highlightPadding
+attr? oi_highlightStrokeColor
+attr? oi_highlightStrokeStyle
+attr? oi_highlightStrokeWidth
+color dimmed_color
+color highlight_stroke_color
+dimen highlight_padding
+dimen highlight_stroke_width
+dimen instruction_content_margin
+dimen instruction_content_padding
+drawable instruction_content_bg
+id cl_guideContainer
+id dashed
+id dotted
+id line
+id tv_button
+id tv_content
+id viewPort
+layout overlay_instruction_dialog_layout
+style GuideTextStyle
+style InstructionDialog
+styleable OverlayInstruction oi_dimmedBackground oi_highlightStrokeWidth oi_highlightStrokeColor oi_highlightStrokeStyle oi_highlightPadding oi_guideContentMargin oi_guideContentPadding oi_guideContentBG oi_guideContentTextStyle oi_guideBtnBG oi_guideBtnTextStyle

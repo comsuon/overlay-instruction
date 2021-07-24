@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="instruction_content_margin">16dp</dimen>
+    <dimen name="instruction_content_padding">12dp</dimen>
+    <dimen name="highlight_stroke_width">2dp</dimen>
+    <dimen name="highlight_padding">4dp</dimen>
+</resources>

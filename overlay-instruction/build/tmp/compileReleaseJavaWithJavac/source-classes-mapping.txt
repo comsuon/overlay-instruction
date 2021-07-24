@@ -1,0 +1,2 @@
+com/comsuon/overlayinstruction/BuildConfig.java
+ com.comsuon.overlayinstruction.BuildConfig
