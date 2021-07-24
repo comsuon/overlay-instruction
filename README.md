@@ -6,6 +6,8 @@ This library is using DialogFragment to host the overlay layout. Along with the 
   
 ***Attention**: this library is still under development, please create an issue for improvements or bugs you have encountered. Thanks!*   
   
+<img src="https://github.com/comsuon/overlay-instruction/blob/master/ezgif.com-gif-maker.gif" alt="Example" width="300"/>
+
 # Usage  
   
 ## Add dependency  
