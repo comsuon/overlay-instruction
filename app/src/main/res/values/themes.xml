@@ -13,10 +13,4 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
-    <style name="CustomInstructionDialog" parent="InstructionDialog">
-        <item name="oi_dimmedBackground">@color/red</item>
-        <item name="oi_highlightStrokeStyle">line</item>
-        <item name="oi_guideBtnTextStyle">@style/btnStyle</item>
-    </style>
 </resources>
